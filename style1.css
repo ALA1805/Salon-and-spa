@@ -1,0 +1,88 @@
+.x1 {
+  width: 100%;
+  font-family: Arial;
+  letter-spacing: 1px;
+  background-color: white;
+}
+.x1 h2 {
+  background: #0062cc;
+  color: aquamarine;
+  width: 200px;
+  font-size: 24px;
+  padding: 20px;
+  height: 40px;
+}
+.x1 h2::after {
+  content: "";
+  border-top: 40px solid green;
+  border-right: 40px solid transparent;
+  position: relative;
+  left: 48px;
+  top: 34px;
+}
+.row {
+  margin-top: 30px;
+}
+img {
+  width: 100%;
+}
+.product-bottom .fa {
+  color: tomato;
+  font-size: 10px;
+}
+.product-bottom h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.padding-bottom h5 {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.padding-bottom button {
+  background-color: violet;
+  padding: 5px;
+}
+.btn-success {
+  color: red;
+  background-color: pink;
+}
+
+.product-bottom .overlay {
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  margin-left: o;
+  width: 70px;
+}
+.product-top::hover .overlay {
+  opacity: 1;
+  margin-left: 5%;
+  transition: 0.5s;
+}
+.overlay .fa {
+  cursor: pointer;
+  background-color: yellowgreen;
+  color: violet;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  padding: 7px;
+  margin: 5%;
+  margin-bottom: 5%;
+}
+.overlay .btn-secondary {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.fa-google {
+  background: #dd4b39;
+  width: 100px;
+  height: 20px;
+}
+.fa-instagram {
+  background: #8a3ab9;
+  width: 100px;
+  height: 20px;
+}
